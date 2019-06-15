@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_AddLab"
+            android:icon="@drawable/lab"
+            android:title="Add New Lab" />
+        <item
+            android:id="@+id/nav_EditLab"
+            android:icon="@drawable/img"
+            android:title="Edit Lab Timetable" />
+        <item
+            android:id="@+id/nav_LecList"
+            android:icon="@drawable/lec"
+            android:title="Lecturer List" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chaticon"
+            android:title="Messages" />
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_pro"
+                android:icon="@drawable/pro"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_so"
+                android:icon="@drawable/lo"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>
